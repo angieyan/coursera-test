@@ -1,0 +1,95 @@
+<style>
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  color: maroon;
+}
+h3 {
+  position:relative;
+  border: 1px solid black;
+  text-align: center;
+  float: right;
+  font-size: 115%;
+  margin: 0;
+  width: 20%;
+  color: maroon;
+  
+}
+p {
+  padding: 10px;
+  color: white;
+  clear: right;
+  height:130px;
+  margin: 0;
+
+
+}
+.row{
+  width: 100%;
+}
+section {
+  display: inline-block;
+  padding: 0px;
+  height: 100px;
+ 
+}
+
+.m1 {
+background-color: green;
+border: 1px solid black;
+margin: 5px;
+
+
+}
+
+#chicken {
+  background-color: #CCCC33;
+}
+
+#beef {
+  background-color: #666633;
+}
+
+#sushi {
+  background-color: #33CCFF;
+}
+/********** Large devices only **********/
+
+@media (min-width: 992px) {
+  section {
+    width: 33%;
+    height: 10%;
+    float: left;
+  }
+  
+}
+ 
+@media (min-width: 768px) and (max-width: 991px) {
+section {
+    width: 50%;
+    height: auto;
+    float: left;
+  }
+
+.s3 {
+    width: 100%
+  }
+}
+@media (max-width: 767px) {
+  section {
+    width: 100%;
+    height: auto;
+
+  }
+}
+
+</style>
