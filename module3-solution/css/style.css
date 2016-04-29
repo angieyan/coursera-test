@@ -1,1 +1,27 @@
+.navbar-brand {
+	padding-top:0;
+
+}
+.navbar-brand h1 {
+	font-size: 1.2em;
+	line-height: 0.70;
+}
+.container-fluid #ourmenu {
+	margin: 0;
+}
+#drop-menu {
+background: #ff4d4d;
+font-size: 1.2em;
+}
+#drop-menu a {
+	color: #FFFFFF;
+	border: 0.1px solid black;
+}
+.row {
+	margin: 0;
+}
+.row div {
+	background: #ff4d4d;
+	border:2px solid #FFFFFF;
+}
 
